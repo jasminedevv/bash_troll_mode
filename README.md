@@ -1,7 +1,7 @@
 # Bash Troll Mode
 ### A command line utility written in python to prank your friends, foes, and adversaries.
 Troll mode has a few sub-modes:
-## Fumble
+## Sweet Dream
 Concept: for users who can’t ls (like on a shared host) and are thus fumbling around in the dark, confirms all biases and silently bends to all mistakes, makes a huge m
 Anything you try to cd into is created if it doesn’t exist
 Anything you cat is created on the spot if it doesn’t exist

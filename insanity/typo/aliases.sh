@@ -1,13 +1,11 @@
-SCRIPT_PATH=~/MS/intensives/bash_troll_mode/typo/script.py
+#!/bin/bash
 
-echo activated
+SCRIPT_PATH=~/.insanity/typo/script.py
 
-function typo () {
-    echo $@
-    # python command.py $0 $@
-}
+echo aliases activated
 
 alias typo="python $SCRIPT_PATH $1 $@"
+
 alias mkdir="typo mkdir"
 alias cat="typo cat"
 alias pwd="typo pwd"

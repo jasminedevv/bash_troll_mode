@@ -25,10 +25,11 @@ fi
 
 if [ $2 == "typo" ]
 then
-    typo_path=$install/typo/aliases.sh
+    typo_path=$install/typo/typo.sh
     echo v1
     echo $typo_path
-    . $typo_path
+    source $typo_path
+    echo $?
 fi
 
 # insanity begin typo

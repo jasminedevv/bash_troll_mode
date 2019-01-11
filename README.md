@@ -18,19 +18,22 @@ $ cd bash_troll_mode
 ```
 - copy the contents of insanity to ~/.insanity/
 ```bash
-$ cp -r insanity ~/insanity
+$ cp -r insanity ~/.insanity
 ```
-- copy insanity.sh to somewhere in you PATH. The default is ~/.local/bin/insanity. Insanity may not work if you put it somewhere like /usr/bin/.
-```bash
-$ cp insanity/insanity.sh ~/.local/bin/insanity
-```
-- change the permissions on the run script so you can run it as a command
-```
-$ chmod 755 ~/.local/bin/insanity 
-```
+
 - source the aliases (just typing `insanity activate typo` unfortunately does not yet work)
 ```bash
 $ source ~/.insanity/typo/typo.sh
+```
+#### To use the insanity shell command
+- copy insanity.sh to somewhere in you PATH you have write access to (without root). The default is ~/.local/bin/insanity. Insanity may not work if you put it somewhere like /usr/bin/.
+```bash
+$ cp insanity/insanity.sh ~/.local/bin/insanity
+```
+- if ~/.local/bin/insanity is not in your PATH you'll need to add the following line to ~/.bashrc (linux) or ~/.bash_profile (mac)
+- change the permissions on the run script so you can run it as a command
+```
+$ chmod 755 ~/.local/bin/insanity 
 ```
 
 #### Or do it in one fell swoop if you're feeling fancy:

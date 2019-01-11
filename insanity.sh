@@ -6,3 +6,8 @@
 # $1 should be begin or end
 # insanity begin typo
 # insanity end
+insanity () {
+    echo $@
+}
+
+# tox

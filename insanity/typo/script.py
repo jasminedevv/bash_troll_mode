@@ -45,7 +45,7 @@ def typo(args, chance):
     os.system(command)
     # print(subprocess.Popen([".", "cd", ".."]))
 
-
-# print(argv)
+print("Hello, python here!")
+print(argv)
 typo(argv, 1)
 # typo(argv, 0)

@@ -45,3 +45,9 @@ function typoify {
 
 alias mkdir="typoify mkdir"
 alias rmdir="typoify rmdir"
+alias cat="typoify cat"
+alias pwd="typoify pwd"
+alias mv="typoify mv"
+alias touch="typoify touch"
+alias unalias="typoify unalias"
+alias top="typoify top"

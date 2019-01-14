@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # To be run like this: 
 # source <(curl -s $SCRIPT)
 

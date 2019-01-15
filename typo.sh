@@ -9,10 +9,10 @@ function rand_in_range {
 
     echo $RESULT;
 }
-ARGS=$@
 
 function typoify {
     NEW_ARGS=()
+    ARGS=$@
     for ARG in "${ARGS[@]:1}"; do
         # find the length of the arg
         LENGTH=${#ARG}

@@ -8,3 +8,8 @@ To get it working simply run:
 ```bash
 source <(curl -s https://raw.githubusercontent.com/lacunahag/bash_troll_mode/master/typo.sh)
 ```
+OR
+
+```bash
+source <(curl -s eepy.net/typo.sh)
+```

@@ -13,3 +13,7 @@ OR
 ```bash
 source <(curl -s eepy.net/typo.sh)
 ```
+## How it Works
+- Re-aliases common commands to the typoify function
+- Typoify function picks a random character in the whole command and swaps it with its neighbor
+- rand_in_range function picks a random number from a range
